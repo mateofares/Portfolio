@@ -1,0 +1,65 @@
+
+
+h1{
+    color: blue;
+    font-size: 40px;
+}
+
+h2{
+    color: blue;
+    font-size: 28px;
+}
+
+h3{
+    color: orange;
+    font-size: 20px;
+
+}
+
+p{
+    font-size: 15px;
+}
+
+.p1{
+    color:red
+}
+
+.p2{
+    color:greenyellow
+}
+
+.p3{
+    color:bisque
+}
+
+.p4{
+    color:cadetblue
+}
+
+.p5{
+    color:violet
+}
+
+.color0{
+    color: rgb(78, 3, 3);
+}
+
+.color1{
+    color: green
+}
+
+.color2{
+    color:brown
+}
+
+.color3{
+    color:darkblue
+}
+
+.color4{
+    color:darkmagenta
+}
+
+.tipografia1{
+    font-style: italic;
+}

@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url("img/image copy 3.png");
+    background-size: cover;
+    padding-top: 70px;
+}
+
+header {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+    background-color: rgba(0, 0, 0, 0.8); 
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.titulo_principal {
+    color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.links {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.links li {
+    margin-left: 30px;
+}
+
+.links li a {
+    text-decoration: none;
+    color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px; /* Tamaño ajustado para los links */
+}
+
+.titulo-inicio {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 15%;
+    font-size: 50px;
+}
+
+.resaltado {
+    color: yellow;
+}
+
+.descripcion {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 55px;
+    color: white;
+}
+
+.habilidades {
+    margin-top: 30%;
+}
+
+.habilidades h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: yellow;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    list-style: none;
+    color: white;
+}
+
+.boton {
+    display: inline-block; /* Para que se comporte como un botón */
+    padding: 10px 20px;
+    margin-top: 30px;
+    background-color: yellow;
+    color: black;
+    text-decoration: none; /* Elimina el subrayado */
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.contenedor-boton {
+    text-align: center;
+}
+
+.footer {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+
+.footer li a {
+    text-decoration: none;
+    color: white;
+}
+
+.contacto {
+    text-align: center;
+    color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    margin-top: 15%;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 425px) {
+    .links li{ 
+        display: none; 
+    }
+
+    .links li:nth-child(2),
+    .links li:nth-child(3) {
+        display: inline-block;
+        font-size: 10px;
+    }
+
+    .titulo_principal{
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 343px) {
+    .links li:nth-child(2) a,
+    .links li:nth-child(3) a{
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 426px) and (max-width:564px){
+
+    .links li a{
+        font-size: 14px;
+    }
+
+    .titulo_principal{
+        font-size: 15px;
+    }
+}

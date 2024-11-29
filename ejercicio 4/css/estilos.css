@@ -1,0 +1,75 @@
+
+#ejercicio1{
+    background-color:lightblue;
+    margin: 20px;
+    padding: 15px;
+    
+}
+
+.ejercicio2{
+    background-image: url("/img/perrosalchica.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ejercicio3{
+    border: 2px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 10px;
+}
+
+.ejercicio4{
+    border: 4px;
+    border-style: solid;
+    border-color: blue;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.ejercicio5{
+    background-color: yellow;
+    text-align: center;
+}
+
+.ejercicio6{
+    border: 5px double violet;
+    background-color: goldenrod;
+    margin: 40px;
+}
+
+.ejercicio7{
+    background-image: url("/img/perrosalchica.jpg");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+.ejercicio8{
+    background-image: url("/img/perrosalchica.jpg");
+    background-size: 50%;
+    background-repeat: repeat-y;
+}
+
+.ejercicio9{
+    background-color: aqua;
+    background-image: url("/img/perrosalchica.jpg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 40%;
+}
+
+.btn1{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: red;
+    color: brown;
+}
+
+.ejercicio10{
+    width: 50%;
+    border-width: 3px;
+    border-style: dotted;
+    border-color: green;
+    padding: 25px;
+
+}

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles_trabajos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+</head>
+<body>
+
+    <header>
+        
+        <h2 class="nombre">Mateo Fares</h2>
+
+        <nav>
+            <ul class="links">
+                <li><a href="index.html #inicio">Inicio</a></li>
+                <li><a href="index.html #habilidades">Habilidades</a></li>
+                <li><a href="index.html #contacto">Contacto</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="seccion">
+
+            <div class="contenedor">
+                <h1 class="titulo">Mis Trabajos</h1>
+            </div>
+            
+            <div class="owl-carousel">
+                
+                <div class="caja">
+                    <a href="Programacion/04.html">Primer Trabajo - 4</a>
+                </div>
+
+                <div class="caja">
+                    <a href="Programacion/03.html">Primer Trabajo - 3</a>
+                </div>
+
+                <div class="caja">
+                    <a href="Programacion/02.html">Primer Trabajo - 2</a>
+                </div>
+
+                <div class="caja">
+                    <a href="Programacion/01.html">Primer Trabajo - 1</a>
+                </div>
+
+                <div class="caja">
+                    <a href="html tp2/ejercicio-01.html">Segundo Trabajo</a>
+                </div>
+
+                <div class="caja">
+                    <a href="html tp2/ejercicio-02.html">Segundo Trabajo - Viaje</a>
+                </div>
+
+                <div class="caja">
+                    <a href="html tp2/ejercicio-03.html">Segundo Trabajo - Producto</a>
+                </div>
+
+                <div class="caja">
+                    <a href="html tp2/ejercicio-04.html">Segundo Trabajo - Noticias</a>
+                </div>
+
+                <div class="caja">
+                    <a href="html tp3/ejercicio1.html">Comenzando con CSS</a>
+                </div>
+
+                <div class="caja">
+                    <a href="ejercicio 4/ejercicio-3.html">Propiedades de Cajas</a>
+                </div>
+
+                <div class="caja">
+                    <a href="ejercicio-05/02-fluido.html">Maquetado Fluido</a>
+                </div>
+
+                <div class="caja">
+                    <a href="ejercicio-05/01-fijo.html.html">Maquetado Fijo</a>
+                </div>
+
+                <div class="caja">
+                    <a href="media queries/index.html">Media Queries</a>
+                </div>
+
+                <div class="caja">
+                    <a href="Ej 7 - Fares Mateo - Bootstrap/ejercicio-7/index-ej3.html">Primeros pasos con Bootstrap 5 (3)</a>
+                </div>
+
+                <div class="caja">
+                    <a href="Ej 7 - Fares Mateo - Bootstrap/ejercicio-7/index-ej2.html">Primeros pasos con Bootstrap 5 (2)</a>
+                </div>
+
+                <div class="caja">
+                    <a href="Ej 7 - Fares Mateo - Bootstrap/ejercicio-7/index-ej1.html">Primeros pasos con Bootstrap 5 (1)</a>
+                </div>
+
+                <div class="caja">
+                    <a href="tp 8/con_dom_y_funciones/index1.html">Introduccion a Javascript - 1</a>
+                </div>
+
+                <div class="caja">
+                    <a href="tp 8/con_dom_y_funciones/index2.html">Introduccion a Javascript - 2</a>
+                </div>
+
+                <div class="caja">
+                    <a href="tp 8/con_dom_y_funciones/index3.html">Introduccion a Javascript - 3</a>
+                </div>
+
+                <div class="caja">
+                    <a href="tp 8/con_dom_y_funciones/index4.html">Introduccion a Javascript - 4</a>
+                </div>
+
+                <div class="caja">
+                    <a href="tp 8/con_dom_y_funciones/index5.html">Introduccion a Javascript - 5</a>
+                </div>
+
+                <div class="caja">
+                    <a href="tp 8/con_dom_y_funciones/index6.html">Introduccion a Javascript - 6</a>
+                </div>
+
+                <div class="caja">
+                    <a href="ejercicio-jQuery/index.html">Ejercicios jQuery</a>
+                </div>
+
+                <div class="caja">
+                    <a href="Plugins/slider/index.html">Plugins - slider</a>
+                </div>
+
+                <div class="caja">
+                    <a href="Plugins/boton_whatsapp/index.html">Plugins - Boton Whatsapp</a>
+                </div>
+
+                <div class="caja">
+                    <a href="Plugins/carrusel/index.html">Plugins - Carrusel</a>
+                </div>
+
+                <div class="caja">
+                    <a href="Plugins/fondo_parallax/index.html">Plugins - Fondo Parallax</a>
+                </div>
+
+                <div class="caja">
+                    <a href="Plugins/Lightbox/index.html">Plugins - Lightbox</a>
+                </div>
+                
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+        
+            $('.owl-carousel').owlCarousel({
+                loop:true,
+                margin:10,
+                autoplay:true,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:3,
+                        nav:true,
+                    },
+                    1000:{
+                        items:5
+                    }
+                }
+            })
+        });
+    </script>
+    
+</body>
+</html>

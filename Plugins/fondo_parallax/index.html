@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #fondo{
+            width: 100%;
+            background-color: lightblue;
+            height: 500px;
+        }
+        .contenido_extra{
+            font-size: 60px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="fondo"></div>
+
+    <div class="contenido_extra">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut delectus debitis distinctio commodi. Cumque, fugit laborum? Animi saepe, inventore consectetur, maiores sint vel in sapiente doloremque neque, quasi quisquam blanditiis?</p>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="parallax.background/parallax.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $(function () {
+                $('#fondo').parallax({
+                    image:'image.png',
+                    height:500,
+                })
+            })
+        })
+    </script>
+
+</body>
+</html>

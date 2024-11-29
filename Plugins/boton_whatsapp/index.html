@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatsapp Button</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="whatsapp-click-to-chat/venom-button.min.css" />
+    <script src="whatsapp-click-to-chat/venom-button.js"></script>
+</head>
+<body>
+    <div id="myButton"></div>
+
+    <script>
+        $(document).ready(function() {
+            $('#myButton').venomButton({
+                phone: '5491157661324',
+                chatMessage: 'Contacto',
+                position: 'right',
+                message: "Hola",
+                showPopup: true
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="Folder.slider/jquery.easy_slides.css" rel="stylesheet" />
+
+
+</head>
+<body>
+    
+    <div class="slider slider_one_big_picture">
+        <img src="../Lightbox/image1.png" alt="foto">
+        <img src="../Lightbox/image2.png" alt="foto2">
+        <img src="../Lightbox/image3.png" alt="foto3">
+        <div class="next_button">next</div>
+        <div class="prev_button">prev</div>
+        <div class="nav_indicators"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="Folder.slider/jquery.easy_slides.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('.slider_one_big_picture').EasySlides()
+        })
+
+
+    </script>
+
+</body>
+</html>

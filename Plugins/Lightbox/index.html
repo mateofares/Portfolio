@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería Lightbox</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Lightbox2/2.11.3/css/lightbox.min.css" />
+    <style>
+
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .gallery-item {
+            flex: 1 1 calc(33.333% - 10px);
+            position: relative;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Galería de Imágenes</h1>
+    <div class="gallery">
+        <div class="gallery-item">
+            <a href="image1.png" data-lightbox="gallery">
+                <img src="image1.png" alt="Imagen 1">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="image2.png" data-lightbox="gallery" >
+                <img src="image2.png" alt="Imagen 2">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="image3.png" data-lightbox="gallery">
+                <img src="image3.png" alt="Imagen 3">
+            </a>
+        </div>
+        
+    </div>
+
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+</body>
+</html>
